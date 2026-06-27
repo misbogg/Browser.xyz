@@ -1,0 +1,8 @@
+{
+  "name": "Remix: browser.xyz",
+  "description": "A transparent Android browser featuring redirect visibility, strict blocking, and a live security dashboard for total user control.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
