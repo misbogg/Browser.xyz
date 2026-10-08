@@ -1,20 +1,20 @@
-# Run and deploy your AI Studio app
+#Browser.xyz
+> ⚠️ **Disclaimer:** `broser.xyz` is an experimental testing sandbox. It is **not** intended for daily driver use or general web browsing.
 
-This contains everything you need to run your app locally.
+**broser.xyz** is a privacy-first mobile browser built natively in Kotlin. Designed specifically for testing and evaluating experimental web behaviors, telemetry isolation, and on-device intelligent features.
 
-View your app in AI Studio: https://ai.studio/apps/d129b5d6-8ea1-4ffb-ac64-d94b6530e381
+---
 
-## Run Locally
+## Key Features
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+- 🧪 **Testing Sandbox:** Built to simulate and benchmark mobile web workflows in an isolated environment.
+- 🛡️ **Privacy-First Core:** Strict data isolation and tracking mitigation by default.
+- 🛍️ **AI Shopping Companion:** Experimental AI features to assist with product comparisons, deal analysis, and shopping automation.
+- ⚡ **Native Kotlin Stack:** Lightweight, modern Android architecture designed for easy modification and feature testing.
 
+---
 
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
-
-
-APK Coming Soon!
+## How To Download (only for android)
+1. In repositories download .apk file.
+2. On your device, enable apk downloading (you may need to enable developer options).
+3. That's all.
